@@ -1,14 +1,14 @@
 [features]
 seeds = false
 [programs.localnet]
-solana_program = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+solana_program = "4a9qyjKPPpr1DdAK1kmBUG3h9KfANHPepcrwLE99XhV2"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
 cluster = "localnet"
-wallet = "/Users/quyang/.config/solana/id.json"
+wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
